@@ -1,0 +1,32 @@
+// let songsIndex=0;
+// const playNextOrPrevious=(navigation)=>{
+//     songsIndex=(songsIndex+navigation+songs.length)%songs.length;
+//     loadSong(songs[songsIndex]);
+//     loadSong(songs[songsIndex]).play();
+// }
+
+// const loadSong=(song)=>{
+//     music.src=song.path;
+//     songName.textContent=song.songName;
+//     songImage.src=song.displayImage;
+//     singerBand.textContent=song.artist;
+// }
+// loadSong(songs[songsIndex])
+
+
+// audioClass.addEventListener("timeupdate",()=>{
+//     const currentTime= audioClass.currentTime
+//     const duration= audioClass.duration;
+//     const currentMinutes= Math.floor(currentTime/60);
+//     const currentSeconds= Math.floor(currentTime%60);
+//     const totalMinutes= Math.floor(duration/60);
+//     const totalSeconds= Math.floor(duration%60);
+
+//     currentTimeDisplay.textContent = `${currentMinutes}:${currentSeconds < 10 ? '0' : ''}${currentSeconds}`;
+//     // totalTimeDisplay.textContent= `${totalMinutes}:${totalSeconds < 10 ? '0': ''}${totalSeconds}`;
+
+//     progressBar.value=audioClass.currentTime
+//     progressBar.max=audioClass.duration;
+// })
+
+

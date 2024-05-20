@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+
+body {
+    background: url("https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.playerBox {
+    height: 85vmin;
+    width: 87vmin;
+    background-color: #c3a4cd;
+    ;
+    margin: 2vh;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+
+.playerBox h1 {
+    font-size: 27px;
+}
+
+.playerBox p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.div1 {
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgc {
+    height: 40vmin;
+    width: 60vmin;
+    margin: 1rem 5rem;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.imgc:hover {
+    box-shadow: 0 10px 20px #000;
+}
+
+#progress-bar {
+    -webkit-appearance: none;
+    height: 6px;
+    width: 84%;
+    background: #eb2285;
+    border-radius: 5px;
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+}
+
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #5f3192;
+}
+#music-time{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.songManipulation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.mani {
+    border: none;
+    background: #c3a4cd;
+    ;
+}
+
+.mani2 {
+    cursor: pointer;
+}
+
+/* .pause2{
+    display: hidden;
+} */
+/* .play {
+    border-radius: 50%;
+} */
+
+.play2 {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}

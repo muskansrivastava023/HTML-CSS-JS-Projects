@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="screen">
+        <div class="playerBox">
+
+            <img src="" alt="" id="song-image" class="imgc">
+            <h2 id="song-name"></h2>
+            <p id="singer-band"></p>
+
+            <audio src="" id="audio-id" class="audio-class" type="audio/mpeg"></audio>
+
+            <input type="range" id="progress-bar" value="0">
+
+            <div id="music-time">
+                <span id="current-time">0:00</span>
+                <spam id="total-time">0:00</span>
+            </div>
+
+
+            <div class="songManipulation">
+                <button class="previous mani">
+                    <span class="material-symbols-outlined prevBtn mani2" style="font-size: 45px;" title="previous">
+                        arrow_circle_left
+                    </span>
+                </button>
+
+                <button class="play mani">
+                    <img src="playButton.png" alt="" class="play2 mani2" title="play">
+                </button>
+
+                <button class="next mani">
+                    <span class="material-symbols-outlined nextBtn mani2" style="font-size: 45px;" title="next">
+                        arrow_circle_right
+                    </span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
