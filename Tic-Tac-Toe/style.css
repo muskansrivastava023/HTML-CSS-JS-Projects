@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi One", sans-serif;
+
+}
+body{
+    background-color: #bfd1e5;
+    text-align: center;
+}
+/* .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+#container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.box{
+    cursor: pointer;
+    width: 18vmin;
+    height: 18vmin;
+    background-color: #247BA0;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    color: black;
+}
+.reset{
+    width: 20vmin;
+    height: 7vmin;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 1rem;
+    background: rgb(166, 66, 83);
+    cursor: pointer;
+}
+.winner-msg{
+    margin: 8vmin;
+}
+.winner{
+    color: #a17c6b;
+    font-size: 5vmin;
+    margin-bottom: 2vmin;
+}
+.new-game{
+    width: 20vmin;
+    height: 7vmin;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 1rem;
+    background: rgb(166, 66, 83);
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
